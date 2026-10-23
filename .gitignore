@@ -1,0 +1,25 @@
+# Keil 生成目录
+**/Objects/
+**/Flash/
+**/DebugConfig/
+**/Listings/
+**/Output/
+
+# Keil 用户界面状态、备份和临时产物
+**/*.uvguix.*
+**/*.bak-*
+**/*.scvd
+
+# 编译结果
+*.axf
+*.hex
+*.o
+*.d
+*.dep
+*.lnp
+*.map
+*.sct
+*.htm
+
+# 本机构建日志
+build_*.log
