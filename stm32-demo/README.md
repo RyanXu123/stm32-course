@@ -16,8 +16,9 @@
 - `04_exti_button\exti_button.uvprojx`，主文件 `exti_button.c`
 - `05_tim_tick\tim_tick.uvprojx`，主文件 `tim_tick.c`
 - `05b_lock_timer\lock_timer.uvprojx`，主文件 `lock_timer.c`，第 05 讲作业 3 的 10 秒锁机示例
+- `06_pwm\pwm.uvprojx`，主文件 `pwm.c`，TIM2_CH2 从 PA1 输出呼吸灯 PWM
 
-两个工程的 Keil 左侧 Project 树都分成：
+各工程的 Keil 左侧 Project 树都分成：
 
 - `01_我的代码`：真正参与编译的主程序；
 - `02_本座示例`：本座的参考版本，只供查看，已排除编译。

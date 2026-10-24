@@ -100,4 +100,7 @@ Keil 的 Project 窗口里也分开：`01_我的代码` 参与编译，`02_本�
 - 2026-10-22：第 05 讲《TIM 定时器中断与毫秒节拍》开讲，讲义 `第05讲_TIM定时器中断与毫秒节拍.md`；
   独立工程 `stm32-demo\05_tim_tick\tim_tick.uvprojx` 已建，TIM2 每 1ms 更新一次并推动软件节拍，
   主循环按 500ms 翻转 PC13。实编译 0 Error、0 Warning。
+- 2026-10-24：第 06 讲《PWM 频率、周期与占空比》开讲，讲义 `第06讲_PWM频率周期与占空比.md`；
+  独立工程 `stm32-demo\06_pwm\pwm.uvprojx` 已建，TIM2_CH2 从 PA1 输出 1kHz PWM，
+  CCR2 每 10ms 改变 10，形成约 1 秒变亮、1 秒变暗的呼吸灯。实编译 0 Error、0 Warning。
 
